@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with default config
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5051/api', // Base URL for all requests
+  baseURL: 'http://travelogger-eb-env.eba-a7erzwcd.us-east-1.elasticbeanstalk.com/api/', // Base URL for all requests
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
